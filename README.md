@@ -7,7 +7,7 @@ A RESTful API built with Flask and SQLite that allows users to manage expenses.
 - Persistent data using SQLite
 JSON-bason API endpoint
 
-## Endpoint
+## Endpoints
 
 GET /expenses
 POST /expenses
@@ -18,8 +18,10 @@ PUT /expenses/<id>
 - Flask
 - SQLite
 
-## How to Run
+## Example Request
 
-'''bash
-pip install -r requirements.txt
-python app.py
+'''json
+{
+    "title": "Rent",
+    "amount": 1200
+}
